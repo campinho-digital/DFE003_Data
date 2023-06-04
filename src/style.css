@@ -1,0 +1,96 @@
+body{
+    
+  background: #333;
+    
+}
+
+h2, h3{
+    text-align: center;
+    color: #fff;
+    opacity: 0.7;
+}
+p{
+    font-size: 1rem;
+    color: #fff;
+}
+li{
+    margin-top: 8px;
+}
+a{
+    font-size: 1.2rem;
+    color: black;
+    text-decoration:none;
+    font-weight: bold;  
+  
+}
+
+#title{
+    color: #fff;
+    text-align: center;
+    }
+.subtitulo-h3{
+    color: black;
+}
+.subtitle{
+    font-size: 2.0rem;
+    color: black;
+    font-weight: 800;
+}
+
+.span{
+    color: yellowgreen;
+
+}
+.span:hover{
+    font-size: 3rem;
+    color:orangered;
+}
+
+.card-list{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    list-style-type: none;
+    color: black;
+    text-align: left;
+    background-image: url(./assets/castelo.jpg);
+    font-size: 1.3rem;
+
+    
+}
+
+.card{
+    
+    border-radius: 5px;
+    margin: 20px;
+    padding: 20px;
+    max-width: 650px;
+    max-height: auto;
+    display: inline-block; 
+    vertical-align: top; 
+    text-align: center;
+   
+
+}
+.picture{
+    width: 300px;
+    height: 300px;
+    align-items: center;
+    border-radius: 50px;
+}
+.picture:hover{
+    width: 500px;
+    height: 500px;
+
+}
+
+.id{
+    font-size: 2.0rem;
+    color: black;
+    font-weight: 700;
+    padding-top: 20px;
+}
+.id:hover, .subtitle:hover, .card-list:hover{
+    color: orange;
+    font-size: 2.8rem;
+}
