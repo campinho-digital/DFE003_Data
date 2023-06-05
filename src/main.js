@@ -2,7 +2,6 @@ import data from './data/movies/movies.json' assert {type: "json"};
 
 const filmes = data
 console.log(filmes)
-console.log("teste")
 
 const movies =document.getElementById("cinema")
 
