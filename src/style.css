@@ -1,0 +1,67 @@
+/* Estilos gerais */
+body {
+  display: flex;
+  justify-content: center;
+  align-items: left;
+  min-height: 100vh;
+  background: linear-gradient(87deg, rgba(238, 174, 202, 1) 10%, rgba(148, 187, 233, 1) 37%, rgba(6, 54, 124, 1) 78%);
+  margin-left: 4cm; /* Margem de 4cm à esquerda */
+}
+
+.image-float {
+  position: fixed;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 3cm;
+  height: auto;
+  margin-right: 20px; /* Espaço entre a imagem e o conteúdo à direita */
+}
+
+.image-float img {
+  width: 100%;
+  height: auto;
+  max-width: 100%;
+  max-height: 100%;
+}
+
+/* Importar a fonte do Google Fonts */
+@import url('https://fonts.googleapis.com/css?family=Tangerine');
+
+/* Estilos para os subtítulos */
+.subtitle {
+  font-family: 'Tangerine', serif;
+  font-size: 28px;
+  color: #000000;
+  /* Outros estilos de formatação do subtítulo */
+}
+
+section {
+  padding: 20px;
+}
+
+.card-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  justify-items: center;
+}
+
+.card {
+  width: 8cm;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  background-color: rgba(28, 245, 245, 0.05); 
+
+}
+
+.picture {
+  width: 100%;
+  height: 4cm;
+  object-fit: contain;
+  margin-bottom: 10px;
+}
+
