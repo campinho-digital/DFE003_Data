@@ -6,17 +6,22 @@ console.log(filmes)
 
 const movies =document.getElementById("cinema")
 
-data.forEach(function(item){
-  movies.innerHTML +=   
-  `
-    <div class="cards">
-      <h1>${item.Title}</h1>
-      <p>${item.Year}</p>
-      <p>${item.Director}</p>
-      <addr>${item.Images}</addr>
-    </div>
-  `
-})
+
+
+// data.forEach(function(item){
+//   movies.innerHTML +=   
+//   `
+//     <div class="cards">
+//       <h1>${item.Title}</h1>
+//       <p>${item.Year}</p>
+//       <p>${item.Director}</p>
+
+//       <img src=${item.Poster} alt="Poster do Filme ${item.Title}">
+
+    
+//     </div>
+//   `
+// })
 
 
 
