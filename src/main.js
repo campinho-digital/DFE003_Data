@@ -1,9 +1,9 @@
 import data from './data/movies/movies.json' assert {type: "json"};
 
-const filmes = data
-console.log(filmes)
-const movies =document.getElementById("cinema")
-console.log("teste3")
+// const filmes = data
+// console.log(filmes)
+// const movies =document.getElementById("cinema")
+// console.log("teste3")
 
 
 // data.forEach(function(item){
