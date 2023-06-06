@@ -10,48 +10,40 @@ function displayNames(data) {
 
     let nameHtml = "";
     if (name !== "") {
-      nameHtml = `<div class="subtitle">Personagem:</div><div class="title">${name}</div>`;
+      nameHtml = `<h3 class="subtitle">Personagem:</h3><h3 class="title">${name}</h3>`;
     }
 
     let filmsHtml = "";
     if (Array.isArray(films) && films.length > 0) {
-      filmsHtml = `<div class="subtitle">Filmes:</div><div class="title">${films}</div>`;
+      filmsHtml = `<h3 class="subtitle">Filme:</h3><h3 class="title">${films}</h3>`;
     }
 
     
     let parkAttractionsHtml = "";
     if (Array.isArray(parkAttractions) && parkAttractions.length > 0) {
-      parkAttractionsHtml = `<div class="subtitle">Brinquedo de parque:</div><div class="title">${parkAttractions}</div>`;
+      parkAttractionsHtml = `<h3 class="subtitle">Brinquedo de parque:</h3><h3 class="title">${parkAttractions}</h3>`;
     }
 
     let alliesHtml = "";
     if (Array.isArray(allies) && allies.length > 0) {
-      alliesHtml = `<div class="subtitle">Aliados:</div><div class="title">${allies}</div>`;
+      alliesHtml = `<h3 class="subtitle">Aliados:</h3><h3 class="title">${allies}</h3>`;
     }
     
     let enemiesHtml = "";
     if (Array.isArray(enemies) && enemies.length > 0) {
-      enemiesHtml = `<div class="subtitle">Inimigos:</div><div class="title">${enemies}</div>`;
+      enemiesHtml = `<h3 class="subtitle">Inimigos:</h3><h3 class="title">${enemies}</h3>`;
     }
 
 
 
     return `
-    <div>
-      <li class="card">
-      <li class="id">${_id}</li>
-
-        ${nameHtml} 
+<div>
+<img class="picture" src=${imageUrl}>
+     <details class="detailsJs">Personagem ${name}
         ${filmsHtml}
         ${parkAttractionsHtml}
-        ${alliesHtml}
-        ${enemiesHtml}
-        
-     
-      <img class="picture" src=${imageUrl}></img><br>
-     
-    
-      </div>`;
+        </details>
+        </div>`;
       
   }).join("");
 
@@ -59,4 +51,3 @@ function displayNames(data) {
 }
 
 displayNames(dataListDisney);
-
