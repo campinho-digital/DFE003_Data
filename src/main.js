@@ -7,7 +7,7 @@ let htmlDivToMovie = document.getElementById("card-container")
 let htmlMovie
 
 function displayCards(data) {
-htmlMovie = data.map(({Title,Year,Director,Plot,Poster}) => {
+htmlMovie = dataMovies.map(({Title,Poster}) => {
 return (htmlMovie =`<div class="card" id="card">
 <div class="gridContainerUp" id="gridContainerUp">
 
