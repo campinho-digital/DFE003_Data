@@ -1,31 +1,30 @@
-import data from './data/movies/movies.json' assert {type: "json"};
+import dataMovies from './data/movies/movies.json' assert {type: "json"};
 
-// const filmes = data
-// console.log(filmes)
-// const movies =document.getElementById("cinema")
-// console.log("teste3")
+const dataListMovies = dataMovies;
+console.log(dataListMovies);
 
+let htmlDivToMovie = document.getElementById("card-container")
+let htmlMovie
 
-// data.forEach(function(item){
-//   movies.innerHTML +=   
-//   `
-//     <div class="cards">
-//       <h1>${item.Title}</h1>
-//       <p>${item.Year}</p>
-//       <p>${item.Director}</p>
+function displayCards(data) {
+htmlMovie = data.map(({Title,Year,Director,Plot,Poster}) => {
+return (htmlMovie =`<div class="card" id="card">
+<div class="gridContainerUp" id="gridContainerUp">
 
-//       <img src=${item.Poster} alt="Poster do Filme ${item.Title}">
+<div class="title"> ${Title}</div>
 
-    
-//     </div>
-//   `
-// })
+<img src="${Poster}"/>
+</div>
+<div class ="backgroundImg" id="backgroundImg">
 
+</div>
+</div>
+</div>
+</div>
 
-
-
-
-
-/*const exibeInformacoes = movies.map( movies => `${movies.nome}` + ' year: ' + `${movies.year}`);
-
-console.log(exibeInformacoes)*/                           
+`);
+});
+htmlDivToMovie.innerHTML = htmlMovie.join("");
+}
+displayCards();
+                      
