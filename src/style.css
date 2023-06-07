@@ -1,0 +1,35 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+header {
+    height: 3rem;
+}
+nav {
+    display: flex;
+    align-items: center;
+    border: 1px solid red;
+}
+nav h1 img{
+    width: 100px;
+    height: 100px;
+    border-radius: 10%;
+}
+nav input {
+    margin-right: .2rem;
+    padding: .2rem;
+}
+nav ul li {
+    display: inline-block;
+    font-size: 1.5rem;
+    padding: 0 5px;
+    text-transform: uppercase;
+}
+.barraPesquisa {
+    display: flex;
+    align-items: center;
+}
+.barraPesquisa img {
+    width: 19px;
+}
