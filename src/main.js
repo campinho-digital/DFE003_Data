@@ -7,19 +7,21 @@ let htmlDivToMovie = document.getElementById("card-container");
 let htmlMovie;
 
 function displayCards() {
-htmlMovie = dataListMovies.map(({Title,Poster}) => {
-return (htmlMovie =`<div class="card" id="card">
-<div class="gridContainerUp" id="gridContainerUp">
+htmlMovie = dataListMovies.map(({Title,Poster,Plot,Director,Year}) => {
+return (htmlMovie =`
+<div class="card"> 
+            
+            <img src="${Poster}" alt="Poster ${Title}">
 
-<div class="title"> ${Title}</div>
+                <h3>${Title}</h3>
 
-<img src="${Poster}"/>
+                <h4>${Plot}</h4>
 
-<div class ="backgroundImg" id="backgroundImg">
+                <p>Diretor: ${Director}</p>
 
-</div>
-</div>
-</div>
+                <p>Ano do filme: ${Year}</p>
+
+        </div>
 
 `);
 });
@@ -28,3 +30,19 @@ htmlDivToMovie.innerHTML = htmlMovie.join("");
 }
 
 displayCards();
+
+
+
+
+//         {/* <div class="card" id="card">
+// <div class="gridContainerUp" id="gridContainerUp">
+
+// <div class="title"> ${Title}</div>
+
+// <img src="${Poster}"/>
+
+// <div class ="backgroundImg" id="backgroundImg">
+
+// </div>
+// </div>
+// </div> */}
