@@ -5,6 +5,7 @@ const card = document.getElementById("apareceCard");
 
 
 musicas.forEach(elemento => {
+    console.log(elemento);
     card.innerHTML += `
     <p> Nome do album: ${elemento.name}</p>
     
