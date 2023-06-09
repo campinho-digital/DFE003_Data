@@ -9,12 +9,17 @@ header {
 nav {
     display: flex;
     align-items: center;
-    border: 1px solid red;
+    justify-content: space-around;
+    padding-top: 1rem;
+    /* border: 1px solid red; */
 }
 nav h1 img{
     width: 100px;
     height: 100px;
     border-radius: 10%;
+}
+nav .container {
+    display: flex;
 }
 nav input {
     margin-right: .2rem;
@@ -22,14 +27,39 @@ nav input {
 }
 nav ul li {
     display: inline-block;
-    font-size: 1.5rem;
-    padding: 0 5px;
+    font-size: 1.2rem;
+    padding: 0 20px;
     text-transform: uppercase;
+    cursor: pointer;
 }
-.barraPesquisa {
+.menu-dropdown li ul{
+    display: none;
+    padding: 10px 0;
+}
+.menu-dropdown li:hover ul{
+    display: block;
+    position: absolute;
+    cursor: pointer;
+    background: #db7f7f;
+    border-radius: 10px;
+}
+.menu-dropdown li:hover {
+    color: #8fda2e;
+}
+.menu-dropdown li ul li {
+    color: #000000;
+    padding-bottom: 5px;
+    display: flex;
+}
+.menu-dropdown li ul li:hover {
+    color: #8fda2e;
+}
+.barra-pesquisa {
     display: flex;
     align-items: center;
+    margin-left: 10px;
 }
-.barraPesquisa img {
+.barra-pesquisa img {
     width: 19px;
+    cursor: pointer;
 }
