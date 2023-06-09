@@ -3,9 +3,8 @@
     padding: 0px;
     box-sizing: border-box;
 }
-header {
-    height: 3rem;
-}
+
+/* Configuração Menu Desktop */
 nav {
     display: flex;
     align-items: center;
@@ -62,4 +61,30 @@ nav ul li {
 .barra-pesquisa img {
     width: 19px;
     cursor: pointer;
+}
+/* FIM Configuração Menu Desktop */
+
+/* Configuração Carousel */
+.container__carousel {
+    width: 100vw;
+
+    margin-bottom: 100rem;
+}
+.container__carousel__div {
+    display: flex;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    scroll-behavior: smooth;
+
+}
+.container__carousel__imgs {
+    flex: none;
+    width: 100%;
+    height: 500px;
+    scroll-snap-align: start;
+    pointer-events: none;
+}
+.container__carousel__imgs img {
+    width: 100%;
+    height: 100%;
 }
