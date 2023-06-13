@@ -1,12 +1,37 @@
-.corpo {
-    font-family: cursive;
-    text-align: center;
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    background-color: blue;
-    width:1325px ;
-    height:500px ;
+}
+
+
+
+.corpo {
+    display: flex;
+    font-family: cursive;
+    text-align: center;
+
+}
+
+.descritivoCard {
+   
+    border: 1px solid black;
+    margin: 1rem;
+    text-align: center;
+    color: brown;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.descritivoCard img {
+    width: 200px;
+    height: 200px;
+    border: 4px solid black;
+
+}
+
+.descritivo__musicas {
+    width: 200px;
 
 
 
