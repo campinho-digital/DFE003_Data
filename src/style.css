@@ -9,14 +9,12 @@ body {
 background: rgb(39, 38, 38)
 }
 
-main {
-
-}
 
 #card-container {
 display: flex;
 flex-wrap: wrap;
 gap: 25px;
+justify-content: center;
 }
 
 
@@ -152,6 +150,3 @@ margin: auto;
 font-size: 10px;
 } */
     
-
-
- */

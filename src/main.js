@@ -19,7 +19,7 @@ function displayCards() {
     <div class="card-back">
       <h1>${Title}</h1>
       <p>${Director}</p>
-      <addr>${Plot}</addr>
+      <p>${Plot}</p>
       </div>
      </div>
     </div>
