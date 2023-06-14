@@ -6,10 +6,10 @@ const imagem = document.getElementById("apareceFiguraCard");
 
 musicas.forEach(elemento => {
     card.innerHTML += `
-    <div id="descritivoCard" class="descritivoCard">
-        
+    <div id="descritivoCard" class="descritivoCard">   
         <div>
             <p> Nome do album: ${elemento.name}</p>
+            <br>
             <img src="${elemento.cover}">
                
         </div>

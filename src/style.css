@@ -1,4 +1,4 @@
-* {
+*{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -14,8 +14,8 @@
 }
 
 .descritivoCard {
-   
-    border: 1px solid black;
+    justify-content: center;
+    border: 4px solid black;
     margin: 1rem;
     text-align: center;
     color: brown;
@@ -24,7 +24,7 @@
 }
 
 .descritivoCard img {
-    width: 200px;
+    width: 180px;
     height: 200px;
     border: 4px solid black;
 
