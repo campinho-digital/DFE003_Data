@@ -8,12 +8,15 @@ musicas.forEach(elemento => {
     card.innerHTML += `
     <div id="descritivoCard" class="descritivoCard">   
         <div>
-            <p> Nome do album: ${elemento.name}</p>
+            <p>  ${elemento.name}</p>
             <br>
+            
+            
             <img src="${elemento.cover}">
                
         </div>
         <p class="descritivo__musicas"> Musicas <br>  ${elemento.tracks}</p> 
+        
         
         
    
