@@ -1,0 +1,64 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.corpo {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+.corpo:hover {
+    color: black;
+    list-style-type: none;
+
+}
+
+.descritivoCard {
+    font-size: 14px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    border-radius: 10px;
+    background-color: rgb(226, 255, 255);
+    border: 4px solid rgb(226, 255, 255);
+    margin: 2rem;
+    justify-content: center;
+    color: brown;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.descritivoCard img {
+    width: 180px;
+    height: 200px;
+    border-radius: 15px;
+
+}
+.descritivoCard img:hover {
+    width: 180px;
+    height: 180px;
+    border-radius: 15px;
+    
+
+}
+
+.descritivoCard:hover {
+    cursor: pointer;
+    height: 50px;
+    color: black
+}
+
+.descritivo__musicas {
+    width: 200px;
+    font-size: 12px;
+    text-align: center;
+}
+
+.descritivo__musicas:hover {
+    height: -75px;
+}
+
+.listaItens {
+    list-style-type: none;
+}
