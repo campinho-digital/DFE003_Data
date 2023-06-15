@@ -12,13 +12,7 @@ musicas.forEach(elemento => {
             <br>
             <img src="${elemento.cover}">
                
-        </div class="descritivo__musicas"> Musicas 
-            
-        
-        
-        
-            
-            
+        </div class="descritivo__musicas"> Tracks 
             <ul> 
             <li class="listaItens"> ${elemento.tracks.map(item =>{
             return item + "<br>";   
