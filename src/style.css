@@ -14,12 +14,23 @@
     font-style: normal;
     font-weight: normal;
 
+    font-family: street;
+    src: url(./data/fonts/Market.ttf)format(truetype);
+    font-style: normal;
+    font-weight: normal;
+
+    font-family: ironman;
+    src: url(./data/fonts/ironman.ttf)format(truetype);
+    font-style: normal;
+    font-weight: normal;
+    
 }
 
 .corpo {
     display: flex;
     text-align: center;
     justify-content: center;
+   
 }
 
 .corpo:hover {
@@ -29,7 +40,8 @@
 }
 
 .descritivoCard {
-    font-size: 14px;
+    font-size: 13px;
+    font-family:"schoolGirls";
     border-radius: 10px;
     background-color: rgb(226, 255, 255);
     margin: 2rem;
@@ -62,9 +74,11 @@
 .descritivoCard:hover {
     cursor: pointer;
     text-align: center;
-    font-family: "schoolGirls";
+    font-size: 14px;
+    
+    font-family: "schoolgirls";
     background-color: rgb(245, 211, 131);
-    height: 620px;
+    height: 690px;
     color: black
 }
 
