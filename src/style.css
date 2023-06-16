@@ -3,6 +3,18 @@
     padding: 0;
     box-sizing: border-box;
 }
+@font-face {
+    font-family: Beatles;
+    src: url(./data/fonts/BOOTLE__.TTF)format(truetype);
+    font-style: normal;
+    font-weight: normal;
+
+    font-family: schoolGirls;
+    src: url(./data/fonts/BOOTLE__.OTF)format(truetype);
+    font-style: normal;
+    font-weight: normal;
+
+}
 
 .corpo {
     display: flex;
@@ -18,34 +30,41 @@
 
 .descritivoCard {
     font-size: 14px;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     border-radius: 10px;
     background-color: rgb(226, 255, 255);
-    border: 4px solid rgb(226, 255, 255);
     margin: 2rem;
     justify-content: center;
     color: brown;
     display: flex;
     flex-wrap: wrap;
+  
 }
 
 .descritivoCard img {
     width: 180px;
     height: 200px;
     border-radius: 15px;
+    text-align: center;
+    justify-content: center;
 
 }
 .descritivoCard img:hover {
-    width: 180px;
-    height: 180px;
+    width: 200px;
+    height: 280px;
     border-radius: 15px;
+    text-align: center;
+    justify-content: center;
+    display: flex;
     
 
 }
 
 .descritivoCard:hover {
     cursor: pointer;
-    height: 50px;
+    text-align: center;
+    font-family: "schoolGirls";
+    background-color: rgb(245, 211, 131);
+    height: 620px;
     color: black
 }
 
@@ -53,11 +72,10 @@
     width: 200px;
     font-size: 12px;
     text-align: center;
+    justify-content: center;
 }
 
-.descritivo__musicas:hover {
-    height: -75px;
-}
+
 
 .listaItens {
     list-style-type: none;
