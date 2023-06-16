@@ -26,8 +26,14 @@
     
 }
 
+.container{
+    flex-wrap: wrap;
+
+}
+
 .corpo {
     display: flex;
+    flex-wrap: wrap;
     text-align: center;
     justify-content: center;
    
@@ -48,7 +54,7 @@
     justify-content: center;
     color: brown;
     display: flex;
-    flex-wrap: wrap;
+   
   
 }
 
@@ -74,11 +80,10 @@
 .descritivoCard:hover {
     cursor: pointer;
     text-align: center;
-    font-size: 14px;
-    
+    font-size: 13px;
     font-family: "schoolgirls";
     background-color: rgb(245, 211, 131);
-    height: 690px;
+    height: 300px;
     color: black
 }
 
