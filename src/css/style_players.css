@@ -1,0 +1,351 @@
+:root {
+    --font-custom: 'BOOTLE', 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', 'Geneva', Verdana, sans-serif;
+    --font-btn: 'Roboto Mono', 'Courier New', Courier, monospace;
+    --font-box: 'IBM Plex Mono','Roboto Mono', 'Courier New', Courier, monospace;
+
+    --black_titulo: #000000;
+    --grey-background: #3d3c3c;
+    --grey-box: #8a8787;
+    --white-text: #f5f5dc;
+    --grey-text: #ddd4d4;
+    --color-bloco: #1d5f1aef;
+    --box-shadow: 0 3px 12px rgba(164, 172, 169, 0.5);
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+
+header {
+    height: 140px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--grey-background);
+    color: var(--white-text);
+    padding: 10px;
+}
+
+/* Configuração Menu Desktop */
+nav {
+    font-family: var(--font-btn);   
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding-top: 1rem;
+    font-weight: bold;
+    z-index: 99;
+}
+
+nav h1 img{
+    width: 100px;
+    height: 90px;
+    border-radius: 10%;
+    box-shadow: 0 0 25px var(--black_titulo);
+    margin-right: 60px;
+}
+
+nav .container {
+    display: flex;    
+}
+
+nav input {
+    margin-right: .8rem;
+    padding: .2rem;
+}
+
+nav ul li {
+    display: inline-block;
+    font-size: 1.3rem;
+    padding: 0 20px;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+.menu-dropdown li ul{
+    display: none;
+}
+
+.menu-dropdown li:hover ul{
+    display: block;
+    position: absolute;
+    cursor: pointer;
+    background: var(--grey-box);
+    border-radius: 10px;
+    padding: 2rem .3rem .5rem;
+}
+
+.menu-dropdown li:hover {
+    color: var(--white-text);
+    transition: 0.3s;
+}
+
+.menu-dropdown li ul li {
+    color: var(--black_titulo);
+    padding-bottom: 1rem;
+    display: flex;
+}
+
+.menu-dropdown li ul li:hover {
+    color: var(--white-text);
+}
+
+.barra-pesquisa {
+    display: flex;
+    align-items: center;
+    margin-left: 60px;
+    background-color: var(--white-text);
+    border-radius: 5px;
+}
+
+.barra-pesquisa img {
+    margin-right: 8px;
+    width: 19px;
+    cursor: pointer;
+}
+.barra-pesquisa img:hover {
+    transform: scale(1.3);
+    transition: 0.4s;
+}
+/* FIM Configuração Menu Desktop */
+   
+body {
+    width: 100%;
+    overflow-x: hidden;
+    background-image:linear-gradient(transparent 0.2%, var(--grey-background) 98%), url("../img/background_beatles_2.jpg");
+    background-repeat: repeat;
+    background-attachment:fixed;   
+}
+
+main {   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.player-container {
+    font-family: var(--font-btn);
+    color: var(--color-bloco);
+    font-size: 22px;
+    font-weight: 600;
+    text-align: center;
+    border: 2px solid var(--grey-background);
+    margin-top: 40px;
+    padding: 5px;
+    width: 400px;
+    height: 600px;
+    box-shadow: var(--box-shadow);
+    border-radius: 12px; 
+    background-image: url(../img/background_beatles_players.jpg);
+    background-repeat: no-repeat;
+    background-attachment:fixed;
+    background-size: cover;
+    overflow-wrap: break-word;
+}
+
+#album-select {
+    color: var(--black_titulo);
+    font-weight: 800;
+    width: 350px;
+    margin-top: 2px;
+    padding: 5px;
+    font-size:22px;
+    overflow-wrap: break-word;
+}
+
+#album-select:hover {
+    color: var(--grey-text);
+    background-color: var(--grey-background);
+    transform: scale(1.09);
+    filter: brightness(1.6);
+    cursor: pointer;
+}
+
+#album-select option {
+    display: flex;
+    align-items: center;
+    justify-items: center;
+}
+
+#player {
+    margin-top: 20px ;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+}
+
+#album-cover {
+    width: 70%;
+    height: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    margin-bottom: 2px;
+    border-radius: 10px;
+}
+
+#playlist {
+    list-style: none;
+    padding: 0;
+    margin: 20px 0;
+    text-align: center;
+}
+
+#playlist li {
+    text-align: center;
+    margin-bottom: 5px;
+}
+  
+#playlist li span {
+    cursor: pointer;
+    display: inline-block;
+    padding: 5px 10px;
+    color: var(--black_titulo);
+    background-color: var(--grey-background);
+    border-radius: 5px;
+}
+
+#playlist li span:hover {
+    transform: scale(1.09);
+    filter: brightness(1.6);
+    cursor: pointer;;
+}
+
+audio {
+    width: 350px;
+    margin-top: 5px;
+}
+
+#audio-controls {
+    position: fixed;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+  
+.footer {
+    margin-top: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+    flex-shrink: 0;    
+}
+
+.span__text {
+    font-family: var(--font-custom);
+    font-size: 28px;
+    font-weight: 600;
+    color: var(--grey-bloco);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.span__footer__icones {
+    margin: 0 8px;
+    width: 24px;
+    animation: pulsar 1s infinite alternate;
+}
+
+@keyframes pulsar {
+    0% {
+        transform: scale(.8);
+    }
+
+    100% {
+        transform: scale(1.2);
+    }
+}
+
+ /* visual do scrollbar do window  */
+  ::-webkit-scrollbar {
+    width: 15px;
+    background-color: var(--grey-background);
+}
+  
+::-webkit-scrollbar-thumb {
+    background: var(--black_titulo);
+    border-radius: 3px;
+}
+  
+::-webkit-scrollbar-thumb:hover {
+    background: var(--black_titulo);
+}
+
+@media screen and (max-width: 600px) {
+
+    body {
+        position: relative;
+        padding-bottom: 60px; /* Aumente esse valor se necessário */
+      }
+
+    header {
+        width: 110%;
+        position: relative;
+        z-index: 1;      
+    }
+
+    nav {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+    
+    nav .container {
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    nav ul {
+        flex-direction: column;
+    }
+      
+    nav ul li {
+        margin-right: 0;
+        margin-bottom: 5px;
+      }
+      
+    .barra-pesquisa {
+        margin-top: 1rem;
+    }
+
+    .player-container {
+        position: absolute;
+        top:33%;
+        left: 50%;
+        transform: translateX(-50%);
+        margin-top: 20px;
+        margin-bottom: 0;
+        padding-bottom: 60px;        
+    }
+    
+    #audio-controls {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 90%;
+    }
+
+    footer {
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        z-index: 2;
+      }
+    
+}

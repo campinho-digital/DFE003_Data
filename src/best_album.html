@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./img/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style_players.css">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Domine:wght@400;500;600;700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,700;1,800&family=Press+Start+2P&display=swap"
+        rel="stylesheet">
+        
+    <title>Melhores Álbuns</title>
+</head>
+
+<body>
+
+    <header>
+        <nav>
+            <h1>
+                <img src="img/logoBeathes.png" alt="logo do site">
+            </h1>
+            <div class="container">
+                <ul class="menu-dropdown">
+                    <li>
+                        músicas
+                        <ul>
+                            <li>todas as músicas</li>
+                            <li>melhores álbuns</li>
+                            <li>melhores músicas</li>
+                        </ul>
+                    </li>
+                    <li>cantores</li>
+                    <li>história</li>
+                </ul>
+
+                <div class="barra-pesquisa">
+                    <input type="text"><img src="img/loupe-svgrepo-com.svg" alt="Imagem de uma Lupa para pesquisar">
+                </div>
+
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <div class="player-container">
+            <select id="album-select">
+                <option value="" disabled>-- Selecione um Álbum --</option>
+            </select>
+            <div id="player">
+                <img id="album-cover" src="" alt="Capa do álbum">
+                <ul id="playlist"></ul>
+                <audio id="audio-player" autoplay controls></audio>
+            </div>
+        </div>
+
+    </main>
+
+    <footer class="footer">
+
+        <span class="span__text">
+
+            <img src="./img/beatles-footer_1.png" alt="img_right" class="span__footer__icones">
+            Criado por The 7Beatles
+            <img src="./img/beatles-footer_2.png" alt="img_left" class="span__footer__icones">
+
+        </span>
+
+    </footer>
+
+    <script type="module" src="js/mainAlbum.js"></script>
+</body>
+
+</html>
