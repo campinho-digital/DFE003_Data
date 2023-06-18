@@ -1,4 +1,5 @@
-[{
+[
+	{
 		"id": 1,
 		"cover": "https://upload.wikimedia.org/wikipedia/en/c/c0/PleasePleaseMe_audio_cover.jpg",
 		"name": "Please Please Me",
@@ -17,19 +18,6 @@
 			"A Taste of Honey",
 			"There's a Place",
 			"Twist and Shout"
-		],
-		"songs": [{
-				"title": "Please Please Me",
-				"file": "./music/please_please_me.mp3"
-			},
-			{
-				"title": "P.S. I Love You",
-				"file": "./music/p.s_i_love_you.mp3"
-			},
-			{
-				"title": "Love Me Do",
-				"file": "./music/love_me_do.mp3"
-			}
 		]
 	},
 	{
@@ -51,19 +39,6 @@
 			"Devil in Her Heart",
 			"Not a Second Time",
 			"Money (That's What I Want)"
-		],
-		"songs": [{
-				"title": "It Won't Be Long",
-				"file": "./music/It Won't Be Long.mp3"
-			},
-			{
-				"title": "Hold Me Tight",
-				"file": "./music/Hold Me Tight.mp3"
-			},
-			{
-				"title": "All My Loving",
-				"file": "./music/All My Loving.mp3"
-			}
 		]
 	},
 	{
@@ -84,19 +59,6 @@
 			"When I Get Home",
 			"You Can't Do That",
 			"I'll Be Back"
-		],
-		"songs": [{
-				"title": "A Hard Day's Night",
-				"file": "./music/A Hard Day's Night.mp3"
-			},
-			{
-				"title": "When I Get Home",
-				"file": "./music/When I Get Home.mp3"
-			},
-			{
-				"title": "I'll Be Back",
-				"file": "./music/I'll Be Back.mp3"
-			}
 		]
 	},
 	{
@@ -118,19 +80,6 @@
 			"I Don't Want to Spoil the Party",
 			"What You're Doing",
 			"Everybody's Trying to Be My Baby"
-		],
-		"songs": [{
-				"title": "No Reply",
-				"file": "./music/No Reply.mp3"
-			},
-			{
-				"title": "Every Little Thing",
-				"file": "./music/Every Little Thing.mp3"
-			},
-			{
-				"title": "I'm a Loser",
-				"file": "./music/I'm a Loser.mp3"
-			}
 		]
 	},
 	{
@@ -152,19 +101,6 @@
 			"I've Just Seen a Face",
 			"Yesterday",
 			"Dizzy Miss Lizzy"
-		],
-		"songs": [{
-				"title": "Help!",
-				"file": "./music/Help!.mp3"
-			},
-			{
-				"title": "The Night Before",
-				"file": "./music/The Night Before.mp3"
-			},
-			{
-				"title": "Another Girl",
-				"file": "./music/Another Girl.mp3"
-			}
 		]
 	},
 	{
@@ -186,19 +122,6 @@
 			"Wait",
 			"If I Needed Someone",
 			"Run for Your Life"
-		],
-		"songs": [{
-				"title": "Drive My Car",
-				"file": "./music/Drive My Car .mp3"
-			},
-			{
-				"title": "In My Life",
-				"file": "./music/In My Life.mp3"
-			},
-			{
-				"title": "Nowhere Man ",
-				"file": "./music/Nowhere Man .mp3"
-			}
 		]
 	},
 	{
@@ -220,19 +143,6 @@
 			"Here, There and Everywhere",
 			"Yellow Submarine",
 			"She Said She Said"
-		],
-		"songs": [{
-				"title": "Good Day Sunshine",
-				"file": "./music/Good Day Sunshine.mp3"
-			},
-			{
-				"title": "I'm Only Sleeping",
-				"file": "./music/I'm Only Sleeping .mp3"
-			},
-			{
-				"title": "Taxman",
-				"file": "./music/Taxman.mp3"
-			}
 		]
 	},
 	{
@@ -253,21 +163,7 @@
 			"Good Morning Good Morning",
 			"Sgt. Pepper's Lonely Hearts Club Band (Reprise)",
 			"A Day in the Life"
-		],
-		"songs": [{
-				"title": "Sgt. Pepper's Lonely Hearts",
-				"file": "./music/Sgt. Pepper's Lonely Hearts Club Band.mp3"
-			},
-			{
-				"title": "With A Little Help",
-				"file": "./music/With A Little Help From My Friends.mp3"
-			},
-			{
-				"title": "She's Leaving Homer",
-				"file": "./music/She's Leaving Home.mp3"
-			}
 		]
-
 	},
 	{
 		"id": 9,
@@ -285,19 +181,6 @@
 			"Blue Jay Way",
 			"Your Mother Should Know",
 			"I Am the Walrus"
-		],
-		"songs": [{
-				"title": "Magical Mystery Tour",
-				"file": "./music/Magical Mystery Tour.mp3"
-			},
-			{
-				"title": "Hello, Goodbye",
-				"file": "./music/Hello, Goodbye.mp3"
-			},
-			{
-				"title": "All You Need Is Love",
-				"file": "./music/All You Need Is Love.mp3"
-			}
 		]
 	},
 	{
@@ -322,19 +205,6 @@
 			"Why Don't We Do It in the Road?",
 			"I Will",
 			"Julia"
-		],
-		"songs": [{
-				"title": "Back In The U.S.S.R.",
-				"file": "./music/Back In The U.S.S.R.mp3"
-			},
-			{
-				"title": "Happiness Is A Warm Gun",
-				"file": "./music/Happiness Is A Warm Gun.mp3"
-			},
-			{
-				"title": "Ob-La-Di, Ob-La-Da",
-				"file": "./music/Ob-La-Di, Ob-La-Da.mp3"
-			}
 		]
 	},
 	{
@@ -355,19 +225,6 @@
 			"Cry Baby Cry",
 			"Revolution 9",
 			"Good Night"
-		],
-		"songs": [{
-				"title": "Birthday",
-				"file": "./music/Birthday.mp3"
-			},
-			{
-				"title": "Savoy Truffle",
-				"file": "./music/Savoy Trufflee.mp3"
-			},
-			{
-				"title": "Sexy Sadie",
-				"file": "./music/Sexy Sadie.mp3"
-			}
 		]
 	},
 	{
@@ -388,19 +245,6 @@
 			"March of the Meanies",
 			"Pepperland Laid Waste",
 			"Yellow Submarine in Pepperland"
-		],
-		"songs": [{
-				"title": "Yellow Submarine",
-				"file": "./music/Yellow Submarine.mp3"
-			},
-			{
-				"title": "Sea of Monsters",
-				"file": "./music/Sea Of Monsters.mp3"
-			},
-			{
-				"title": "All You Need Is Lover",
-				"file": "./music/All You Need Is Love.mp3"
-			}
 		]
 	},
 	{
@@ -425,19 +269,6 @@
 			"Carry That Weight",
 			"The End",
 			"Her Majesty"
-		],
-		"songs": [{
-				"title": "Yellow Submarine",
-				"file": "./music/Yellow Submarine.mp3"
-			},
-			{
-				"title": "All Together Now",
-				"file": "./music/All Together Now.mp3"
-			},
-			{
-				"title": "Sea Of Monsters",
-				"file": "./music/Sea Of Monsters.mp3"
-			}
 		]
 	},
 	{
@@ -457,19 +288,6 @@
 			"The Long and Winding Road",
 			"For You Blue",
 			"Get Back"
-		],
-		"songs": [{
-				"title": "Let It Be",
-				"file": "./music/let_it_be.mp3"
-			},
-			{
-				"title": "Get Back",
-				"file": "./music/Get Back.mp3"
-			},
-			{
-				"title": "Across The Universe ",
-				"file": "./music/Across The Universe .mp3"
-			}
 		]
 	},
 	{
@@ -494,19 +312,6 @@
 			"She's a Woman",
 			"Yes it is",
 			"I'm Down"
-		],
-		"songs": [{
-				"title": "I Call Your Name",
-				"file": "./music/I Call Your Name.mp3"
-			},
-			{
-				"title": "I'll Get You",
-				"file": "./music/I'll Get You.mp3"
-			},
-			{
-				"title": "Long Tall Sally",
-				"file": "./music/Long Tall Sally.mp3"
-			}
 		]
 	},
 	{
@@ -528,19 +333,6 @@
 			"Old Brown Shoe",
 			"Across the Universe",
 			"You know my name(Look up the Number)"
-		],
-		"songs": [{
-				"title": "Day Tripper",
-				"file": "./music/Day Tripper.mp3"
-			},
-			{
-				"title": "Don't Let Me Down",
-				"file": "./music/Don't Let Me Down.mp3"
-			},
-			{
-				"title": "Old Brown Shoe",
-				"file": "./music/Old Brown Shoe.mp3"
-			}
 		]
 	}
 ]
