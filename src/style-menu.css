@@ -1,0 +1,37 @@
+
+
+
+.menu-nav{
+    display: flex;
+    flex-direction: column;
+    justify-content:flex-start;
+    margin-top: 20px;
+    margin-bottom: 10px;
+
+}
+.item{
+    display: flex;
+    justify-content:space-evenly;
+    list-style: none;
+
+}
+
+
+.menu-nav li a{
+    padding: 30px;
+    color: #fff;
+    opacity: .8;
+    text-decoration: none;
+    font-size: 1rem;
+
+
+
+}
+.menu-nav li a:hover{
+    color: yellow ;
+    font-size: 1.8rem;
+    opacity: 0.8;
+    
+}
+
+

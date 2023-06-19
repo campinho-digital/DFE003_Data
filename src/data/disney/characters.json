@@ -1,7 +1,75 @@
 {
     "data": [
       {
-        "films": [],
+        "films": ["Valente"],
+        "shortFilms": [],
+        "tvShows": [],
+        "videoGames": [],
+        "parkAttractions": [],
+        "allies": [],
+        "enemies": [],
+        "_id": 1,
+        "name": "Merida",
+        "imageUrl": "https://miro.medium.com/v2/resize:fit:720/format:webp/1*qqiIDkn-sB4LF-Vfd9rRnw.png",
+        "url": "https://api.disneyapi.dev/characters/6"
+      },
+     
+      {
+        "films": ["Viva - A vida é uma festa "],
+        "shortFilms": [],
+        "tvShows": [],
+        "videoGames": [],
+        "parkAttractions": [],
+        "allies": [],
+        "enemies": [],
+        "_id": 2,
+        "name": "Miguel",
+        "imageUrl": "https://www.justlia.com.br/wp-content/uploads/2017/03/viva-vida-festa004.jpg",
+        "url": "https://api.disneyapi.dev/characters/6"
+      },
+      {
+        "films": ["A branca de neve e os 7 Anões"],
+        "shortFilms": [],
+        "tvShows": [],
+        "videoGames": [],
+        "parkAttractions": [],
+        "allies": [],
+        "enemies": [],
+        "_id": 3,
+        "name": "Branca de Neve",
+        "imageUrl": "https://p2.trrsf.com/image/fget/cf/774/0/images.terra.com/2022/05/21/932863218-snow-white-disney-1.jpg",
+        "url": "https://api.disneyapi.dev/characters/6"
+      },
+
+      {
+        "films": ["Divertida Mente"],
+        "shortFilms": [],
+        "tvShows": [],
+        "videoGames": [],
+        "parkAttractions": [],
+        "allies": [],
+        "enemies": [],
+        "_id": 4,
+        "name": "Alegria",
+        "imageUrl": "https://f.vividscreen.info/soft/5e70be31155535840344bfa0899c214c/Princess-Mulan-1080x1920.jpg",
+        "url": "https://api.disneyapi.dev/characters/6"
+      },
+
+      {
+        "films": ["Frozen 1 , Frozen 2"],
+        "shortFilms": [],
+        "tvShows": [],
+        "videoGames": [],
+        "parkAttractions": [],
+        "allies": [],
+        "enemies": [],
+        "_id": 5,
+        "name": "Elza",
+        "imageUrl": "https://i.pinimg.com/564x/49/7e/6e/497e6ef3eed5fa24b8f722a5cec94504.jpg",
+        "url": "https://api.disneyapi.dev/characters/6"
+      },
+      {
+        "films": ["O Rei Leão, O Rei Leão 2: O Reino de Simba, O Rei Leão 3 - Hakuna Matata"],
         "shortFilms": [],
         "tvShows": [],
         "videoGames": [],
@@ -9,8 +77,61 @@
         "allies": [],
         "enemies": [],
         "_id": 6,
-        "name": "'Olu Mel",
-        "imageUrl": "https://static.wikia.nocookie.net/disney/images/6/61/Olu_main.png",
+        "name": "Simba",
+        "imageUrl": "https://www.nicelembrancinhas.com.br/image/cache/webp/catalog/rei_leao/simba_site-500x500.webp",
+        "url": "https://api.disneyapi.dev/characters/6"
+      },
+      {
+        "films": ["Lilo & Stitch"],
+        "shortFilms": [],
+        "tvShows": [],
+        "videoGames": [],
+        "parkAttractions": [],
+        "allies": [],
+        "enemies": [],
+        "_id": 7,
+        "name": "Stitch",
+        "imageUrl": "data:image/png;base64,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",
+        "url": "https://api.disneyapi.dev/characters/6"
+      },
+      
+      {
+        "films": ["Mulan, Mulan 2 - Alenda continua"],
+        "shortFilms": [],
+        "tvShows": [],
+        "videoGames": [],
+        "parkAttractions": [],
+        "allies": [],
+        "enemies": [],
+        "_id": 8,
+        "name": "Mulan",
+        "imageUrl": "https://f.vividscreen.info/soft/5e70be31155535840344bfa0899c214c/Princess-Mulan-1080x1920.jpg",
+        "url": "https://api.disneyapi.dev/characters/6"
+      },
+      {
+        "films": ["Cinderela 1.2 e 3"],
+        "shortFilms": [],
+        "tvShows": [],
+        "videoGames": [],
+        "parkAttractions": [],
+        "allies": [],
+        "enemies": [],
+        "_id": 9,
+        "name": "Cinderela",
+        "imageUrl": "https://i.pinimg.com/564x/8a/99/56/8a99563a6788eee1686909101b563286.jpg",
+        "url": "https://api.disneyapi.dev/characters/6"
+      },
+      {
+        "films": [],
+        "shortFilms": [],
+        "tvShows": [],
+        "videoGames": [],
+        "parkAttractions": [],
+        "allies": [],
+        "enemies": [],
+        "_id": 10,
+        "name": "Olu Mel",
+        "imageUrl": "https://media.dayoftheshirt.com/images/shirts/RitY9/teepublic_olu-mel-teepublic_1623831712.large.png",
         "url": "https://api.disneyapi.dev/characters/6"
       },
       {
@@ -23,7 +144,7 @@
         "parkAttractions": [],
         "allies": [],
         "enemies": [],
-        "_id": 7,
+        "_id": 11,
         "name": ".GIFfany",
         "imageUrl": "https://static.wikia.nocookie.net/disney/images/5/51/Giffany.png",
         "url": "https://api.disneyapi.dev/characters/7"
@@ -202,11 +323,11 @@
       {
         "films": [
           "The Return of Jafar",
-          "Aladdin and the King of Thieves"
+          ""
         ],
         "shortFilms": [],
         "tvShows": [
-          "Aladdin (TV series)"
+          ""
         ],
         "videoGames": [],
         "parkAttractions": [],
@@ -269,21 +390,21 @@
       },
       {
         "films": [
-          "Aladdin (film)",
+          "",
           "The Return of Jafar",
           "Aladdin and the King of Thieves",
           "Mickey's Magical Christmas: Snowed in at the House of Mouse",
           "Disney Princess Enchanted Tales: Follow Your Dreams",
-          "Aladdin (2019 film)"
+          ""
         ],
         "shortFilms": [],
         "tvShows": [
-          "Aladdin (TV series)",
+          "",
           "Hercules (TV series)",
           "House of Mouse"
         ],
         "videoGames": [
-          "Aladdin (video game)",
+          "",
           "Disney's ReadingQuest With Aladdin",
           "Disney's MathQuest With Aladdin",
           "Disney's Aladdin in Nasira's Revenge",
