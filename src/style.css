@@ -6,9 +6,17 @@ box-sizing: border-box;
 }
 
 body {
-background: rgb(39, 38, 38)
+background: rgb(39, 38, 38);
 }
 
+.cabecalho {
+  width: 1350px;
+  height: 700px;
+  object-fit: fill;
+  object-position:center top;
+  border: 2px solid black;
+  border-radius: 20px;
+}
 
 #card-container {
 display: flex;
@@ -29,6 +37,8 @@ justify-content: center;
     background: white;
     transform: rotateY(-180deg);
     backface-visibility: hidden;
+    background-color: gray;
+    font-family: 'Franklin Gothic Medium';
   }
   
   .card-front, .card-back {
