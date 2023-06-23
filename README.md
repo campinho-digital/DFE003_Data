@@ -4,53 +4,57 @@
 
 - [Desafio Data](#desafio-data)
   - [Índice](#índice)
-  - [Resumo do projeto](#resumo-do-projeto)
-  - [Objetivos de aprendizagem](#objetivos-de-aprendizagem)
-  - [Orientações:](#orientações)
-  - [Critérios de aceitação](#critérios-de-aceitação)
-      - [Links utéis:](#links-utéis)
-  - [Dicas](#dicas)
+  - [Projeto Catálogo de Filmes](#projeto-catalogo-de-filmes)
+  - [Desenvolvimento da interface](#desenvolvimento-de-interface)
+  - [Conteúdo implementado no projeto](#conteudo-implementado-no-projeto)
+  - [Como executar o projeto](#como-executar-o-projeto)
+  - [Tecnologias utilizadas](#tecnologias-utilizadas)
+  - [Sobre os desenvolvedores](#sobre-os-desenvolvedores)
 
 ***
 
-## Resumo do projeto
+## Projeto Catálogo de Filmes
 
-O que deve ser feito: 
-
-- Nesse projeto uma variedade de dados de temáticas diferentes para que você explore. Esses dados estão no formato `.json`  que é um arquivo que contém uma série de dados estruturados em formato texto e é utilizado para transferir informações entre sistemas. Escolha dentre os temas o que mais te agrade para trabalhar e exiba esses dados em uma interface gráfica de maneira organizada e estilizada. 
+Este projeto tem como objetivo consumir um arquivo JSON e construir uma página web para visualizar filmes e séries em forma de catálogo. Através da interface interativa de cards, os usuários podem explorar os conteúdos e obter informações detalhadas sobre cada um.
   
-
-
-## Objetivos de aprendizagem
+## Desenvolvimento da interface
   
-- Variáveis e constantes 
-- Uso de comandos de git: `git add` `git commit` `git pull` `git push`
-- Gerenciamento de repositorios de GitHub (clone e fork)
-- HTML semântico.
-- Seletores de CSS.
-- Uso de seletores de DOM.
-- Gerenciamento de eventos de DOM.
+Durante o desenvolvimento da interface, buscamos inspiração em catálogos de streaming populares, como Prime Video e Netflix. Optamos por utilizar cards interativos para representar cada filme, exibindo uma imagem e um título na parte frontal e informações detalhadas no verso do card. Como próximo passo, queremos implementar recursos de filtragem e ordenação para facilitar a navegação pelo catálogo.
 
-## Orientações:
+## Conteúdo implementado no projeto
 
-- O projeto será feito em grupo.
-- O projeto deverá ser entregue subindo o seu código no GitHub (commit/push) em seguida o link do repositório deverá ser enviado na atividade na plataforma da Campinho Digital. 
+O projeto abrangeu os seguintes conceitos e habilidades:
 
-## Critérios de aceitação
+- Utilização de HTML, CSS e JavaScript para construção da interface e interatividade;
+- Utilização de HTML semântico para uma estrutura de código mais clara;
+- Utilização de seletores de CSS para estilizar os elementos da página;
+- Importação e manipulação de dados de um arquivo JSON usando JavaScript;
+- Manipulação dinâmica do DOM para exibir os filmes e suas informações na interface;
+- Utilização de boas práticas de codificação e organização do código;
+- Utilização de comandos Git para controle de versão do projeto;
+- Gerenciamento de repositórios no GitHub, incluindo clonagem, fork e criação de branches;
+- Colaboração em equipe utilizando pull requests e tags.
 
-- Os dados precisam ser exibidos por meio de uma interface gráfica. 
+## Como executar o projeto
 
+Para executar o projeto em seu ambiente local, siga as etapas abaixo:
 
+Clone ou faça o download do repositório para o seu computador.
+Abra o arquivo index.html em um navegador da web. 
 
-#### Links utéis:
-[Introdução ao DOM](https://developer.mozilla.org/pt-BR/docs/Web/API/Document_Object_Model/Introduction)
-[Adicionar JavaScript ao HTML](https://www.hostinger.com.br/tutoriais/como-adicionar-javascript-no-html)
-[JSON](https://www.google.com/search?q=o+que+%C3%A9+json&oq=O+QUE+%C3%89+JSON&aqs=chrome.0.69i59j0i512l6j69i60.1993j0j7&sourceid=chrome&ie=UTF-8)
-[Como trabalhar com JSON?](https://developer.mozilla.org/pt-BR/docs/Learn/JavaScript/Objects/JSON)
+## Tecnologias utilizadas
 
-## Dicas
+O projeto foi desenvolvido utilizando as seguintes tecnologias:
 
-- Certifique-se de estar com a sua maquina configurada de acordo com as aulas vistas anteriormente.
+- HTML
+- CSS
+- JavaScript
+
+## Sobre os desenvolvedores
+
+- Este projeto foi desenvolvido por Silvana, Suellen, Gabriel e Ingrid como parte do Curso FullStack da Campinho Digital. Cada membro da equipe contribuiu com suas habilidades, conhecimentos e pesquisas para criar essa aplicação.
+
+Agradecemos por utilizar nosso catálogo e esperamos que você tenha uma ótima experiência ao explorar os conteúdos disponíveis. Em caso de dúvidas ou feedback, entre em contato conosco.
 
 
 

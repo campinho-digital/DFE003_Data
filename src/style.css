@@ -1,0 +1,157 @@
+@font-face {
+    font-family: 'Bebas Neue';
+    src: url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap') format('truetype'); 
+  }
+  
+  h1, h3, .containerCards__card__frente span, .containerCards__card__verso span, .containerCards__card__verso p {
+    font-family: 'Bebas Neue', Arial, Helvetica, sans-serif;
+  }
+  
+
+
+*{
+   margin:0;
+   padding: 0;
+   box-sizing:0;
+}
+
+body {
+    /*border:1px solid red;*/
+    height: 1400px;
+    background-image: url(./img/colagem-de-fundo-de-filme.jpg);
+    background-repeat:no-repeat;
+    background-size:100%;
+    background-position: center top;
+    font-family: 'Bebas Neue', Arial, Helvetica, sans-serif;
+    font-size:1rem;
+    color:rgb(222, 222, 231);
+    background-attachment:fixed;
+}
+
+header {
+    background: #173853;
+    position: fixed;
+    top:0;
+    width: 100%;
+    z-index:1;
+    height: 110px;
+    /* background:linear-gradient(45deg,#F27405,#2B6593,#D91E41); */
+}
+
+h1, h2 {
+    text-align: center;
+    padding: 10px;
+}
+main {
+    width: 100%;
+    height: 100%;
+    /* margin-top: 20px; */
+}
+
+.containerCards {
+    /* border: 2px solid pink; */
+    min-width:300px;
+    max-width: 1200px;
+    margin:190px;
+    /* position: relative; */
+    display:flex;
+    gap: 2rem;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    z-index: 0;
+}
+
+.containerCards__card {
+    width: 205px;
+    height: 300px;
+    position: relative;
+    transform-style: preserve-3d;
+    transition: all 0.9s ease;
+      
+}
+
+.containerCards__card:hover {
+    transform: rotateY(180deg);
+}
+
+.containerCards__card__frente {
+    width: 205px;
+    height: 300px;
+    display:flex;
+    align-items: center;
+    border:5px solid #1ed25d;
+    border-radius: 20px;
+    position:absolute;
+    
+    /* backface-visibility: hidden; */
+}
+
+.containerCards__card__frente img {
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+}
+.containerCards__card__frente span {
+    width:100%;
+    height: 45px;
+    line-height:45px;
+    position:absolute;
+    bottom:0;
+    background-color: #1314DB;
+    text-align: center;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    color: #fff;
+    font-size: 15px;
+    text-shadow: 0 0 5px #222;
+
+}
+
+.containerCards__card__verso {
+    position:absolute;
+    width: 205px;
+    height: 300px;
+    /* display:flex; */
+    background:linear-gradient(#001B4B,#1ed25d,#001B4B);
+    color:#fff;
+    /* align-items: center;
+    text-align: center;
+    justify-content: center; */
+    border:5px solid #1ed25d;
+    border-radius: 20px;
+    backface-visibility: hidden;
+    transform: rotatey(180deg);
+}
+
+.containerCards__card__verso span {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Bebas Neue', Arial, Helvetica, sans-serif;
+    text-align: center;
+    text-shadow: 0 0 5px #222;
+    padding: 20px;
+}
+
+.containerCards__card__verso p {
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    text-align: center;
+    padding: 20px;
+}
+
+#tituloAno {
+    font-size: 18px;
+}
+
+#tituloGenero {
+    font-size: 18px;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background: #173853;
+   }
