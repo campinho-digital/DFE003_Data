@@ -1,3 +1,14 @@
+
+
+
+![preview](./.github/preview00.png)
+![preview](./.github/preview01.png)
+![preview](./.github/preview02.png)
+![preview](./.github/preview03.png)
+
+
+
+
 # Desafio Data
 
 ## Índice

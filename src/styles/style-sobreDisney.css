@@ -1,0 +1,14 @@
+body {
+    font-family: Arial, sans-serif;
+    margin-left: 200px;
+    margin-right: 100px;
+    background: linear-gradient(87deg, rgba(238, 174, 202, 1) 10%, rgba(148, 187, 233, 1) 37%, rgba(6, 54, 124, 1) 78%);
+  }
+
+  h1 {
+    text-align: center;
+  }
+
+  p {
+    text-align: justify;
+  }

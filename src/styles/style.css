@@ -1,0 +1,476 @@
+/* CSS DAYANA */
+
+@import url('https://fonts.googleapis.com/css2?family=Mouse+Memoirs&family=Open+Sans:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mouse+Memoirs&family=Roboto:wght@400&display=swap');
+
+
+body {
+      
+  
+  font-family: 'Roboto', sans-serif;
+    font-size: 1.4em;
+  }
+
+
+  body::before {
+   
+     content: "";
+      background: url(https://e1.pxfuel.com/desktop-wallpaper/927/136/desktop-wallpaper-cute-disney-castle-disney-palace.jpg);
+      background-position:top;
+      opacity: 0.8;
+      top: 0;
+      left: 0;
+      bottom: 0;
+      right: 0;
+      position:fixed;
+      z-index: -1;   
+
+  }
+
+*{
+    margin:0 ;
+    padding:0;
+    box-sizing: border-box;
+}
+
+  header{
+    display:flex;
+    flex-direction: column;
+  
+}
+.item .itemLista{
+  color: white;
+  border: 2px solid white;
+  background-color: blue;
+  opacity: 0.5;
+  border-radius: 20px;
+  font-weight: 700;
+  width: auto;
+  height: 60px;
+  text-align: center;
+  padding: 20px;
+
+}
+
+
+ .div_logo, h1, h2, summary {
+    text-align: center;
+    background:transparent;
+
+  }
+
+.logo{
+   
+    padding: 40px 5px 5px 5px;
+    animation: animaLogo;
+    animation-duration: 8s;
+    animation-delay: 2s;
+     
+    
+}
+
+.logoSquad8{
+  width: 100px;
+  border-radius: 50%;
+  animation: animaLogo;
+  animation-duration: 8s;
+  animation-delay: 2s;
+  
+}
+
+/*animaçao do logo squad 8*/
+@keyframes animaLogo {
+  
+  0% { transform: scale(1); }
+  50% { transform: scale(1.2); }
+  75% { transform: scale(1.9); }
+  100% { transform: scale(1); }
+
+
+
+}
+
+
+
+.imgDisney {
+  width:15rem;
+  padding: 0px 5px 5px 5px;
+  margin-top: -50px;
+}
+
+.image-float {
+  width: 100%;
+  display: flex;
+  text-align: center;
+  align-content: center;
+  justify-content: center;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  padding-bottom: 20px;
+  
+
+}
+
+h1{
+  font-family: 'Mouse Memoirs', sans-serif;
+  padding: 1px 5px 20px 5px;
+  padding-top: 10px;
+  font-size: 1.9em;
+  color:white;
+  text-align: center;
+  opacity:0.9;
+
+
+
+    
+}
+
+ section details img  {
+        height: 5rem;
+        width: 5rem;
+        border-radius: 50%;
+        border: 1px solid rgb(91, 91, 91);
+        box-shadow: 2px 2px 5px #2EC4B6;
+        display: block;   
+
+
+ }
+      
+
+ .container_perfil_pessoal{
+        display: inline-flex;
+        flex-direction: row;
+        justify-content:  space-evenly;
+        align-items: center;
+        align-content: center;
+        width: 100%;
+        margin: auto;
+        flex-wrap: wrap;
+        padding: 5px 1px 2px 5px;
+        background: rgba(0,0,0,0.5);
+
+      }
+ 
+
+  ul li {
+      display: inline-flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+    }
+     
+ h2 {
+        font-size:1.1em;
+        padding: 8px 8px 3px 8px;
+        text-align: center;
+        color:white;
+        
+      }
+      
+ h3{
+        font-size: 1.1em;
+        color: rgb(22, 21, 84);
+        padding-bottom: 5px;
+      }
+      
+      
+ summary{
+        font-weight: 600;
+        width: 100%;
+        text-align: center;
+        padding:10px;
+        font-size: 1.3em;
+        color: white;
+
+         }
+
+details {
+          font-size: 1.0rem;
+          font-weight: 800;
+          cursor: pointer;
+
+         }
+   
+    details:hover{
+      opacity:0.9;
+    }
+    
+ h4{
+      padding-top: 10px;
+      color:white;
+      text-align: center;
+  }
+
+a{
+      padding:5px;
+
+  }
+  
+a:hover{
+      opacity: 0.7;
+  }
+  
+  
+
+.foto {
+  height: 5rem;
+  width: 5rem;
+  border-radius: 50%;
+  border: 1px solid rgb(91, 91, 91);
+  display: block;
+  border-radius: 50%;
+
+}
+     
+      
+
+@media screen and (max-width:580px) {
+ 
+     .container_perfil_pessoal {
+          display: flex;
+         flex-direction: column;
+         padding: 10px;
+        }
+      }
+
+
+@media screen and (max-width:202px){
+    .logo{
+     width:80%;
+    }
+
+    h2{
+      font-size:70%;
+    }
+    
+  }
+ 
+
+@media screen and (max-width:500px){
+
+  h1 {
+    font-size:1.6em;
+    margin:auto;
+  }
+
+  h2{
+    font-size: 1.3em;
+  }
+   
+
+  
+}
+
+
+ 
+      
+.detailsJS {
+        background-color: rgba(10,23,55,0.5);
+
+     }
+
+ .footerIndex {
+      width: 100%;
+      height: 50px;
+      text-align: center;
+      background-color: rgba(10,23,55,0.5);
+      color:white;
+      display: grid;
+      place-items: center;
+      align-items:center;
+      opacity: 0.8;
+      margin: 5px 0px 0px 0px;
+      
+     
+     
+    }
+    footer p{
+      font-size: 1.3rem;
+    }
+
+    footer span{
+      color: yellow;
+    }
+
+    .footer_sobreProjeto{
+      width: 100%;
+      height: 50px;
+      text-align: center;
+      background-color: rgba(10,23,55,0.5);
+      color:white;
+      display: grid;
+      place-items: center;
+      align-items:center;
+      opacity: 0.8;
+      margin: 5px 0px 0px 0px;
+      bottom:0;
+      position:fixed;
+   
+    }
+
+     /*texto personagem h1*/
+    .personagem{
+      height: 100px;
+
+    }
+   
+    .subtitle{
+      font-size: 1.5rem;
+      color: white;
+    }
+    .title{
+      font-size: 1.1rem;
+      color:white;
+    }
+
+
+    /*CSS CARD-FLIP*/
+.content {
+  display: flex;
+  margin: 0 auto;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  max-width: 1000px;
+}
+
+.card {
+  color: inherit;
+  cursor: pointer;
+  width: calc(33% - 2rem);
+  min-width: calc(33% - 2rem);
+  height: 400px;
+  min-height: 400px;
+  perspective: 1000px;
+  margin: 1rem;
+  position: relative;
+}
+@media screen and (max-width: 800px) {
+  .card {
+    width: calc(50% - 2rem);
+  }
+}
+
+
+
+.front,
+.back {
+  display: flex;
+  border-radius: 6px;
+  background-position: center;
+  background-size: cover;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  transform-style: preserve-3d;
+  transition: ease-in-out 600ms;
+}
+
+.front {
+  background-size: cover;
+  padding: 2rem;
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: #fff;
+  overflow: hidden;
+  border: 5px solid lightblue;
+  border-radius: 30px;
+
+}
+.front:before {
+  position: absolute;
+  display: block;
+  content: "";
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  opacity: 0.25;
+  z-index: -1;
+
+}
+.card:hover .front {
+  transform: rotateY(180deg);
+}
+.card:nth-child(even):hover .front {
+  transform: rotateY(-180deg);
+}
+
+.back {
+  
+  transform: rotateY(-180deg);
+  padding: 0 2em;
+  background-color: rgba(22, 39, 83, 0.9);
+ /* background-image: url(../src/assets/disneyGif.gif);  You hate to see it?*/
+  border: 5px solid white;
+  border-radius: 30px;
+  
+}
+
+
+
+.card:hover .back {
+  transform: rotateY(0deg);
+  border: 5px solid white;
+  border-radius: 30px;
+  color: white;
+
+
+}
+.card:nth-child(even) .back {
+  transform: rotateY(180deg);
+}
+
+.card:nth-child(even):hover .back {
+  transform: rotateY(0deg);
+}
+
+/*FIM CSS CARD-FLIP*/
+
+
+
+/* Botao Topo - Down */
+.btnTopo, .btnFim{
+  text-decoration: none;
+  color: #fff;
+  background-color: blue;
+  border: 1px solid white;
+  border-radius: 6px;
+  padding: 5px;
+  position: fixed;
+  bottom: 15px;
+  width: 80px;
+  height: 40px;
+  font-weight: bold;
+  text-align: center;
+  font-size: 1rem;
+  opacity: 0.5;
+}
+.btnTopo{
+  left: 5px;
+  padding: 10px;
+
+}
+
+.btnFim{
+ right: 5px;
+ top: 10px;
+ padding: 10px;
+
+ 
+}
+
+
+
+
+  
+
+
+ 
+  
+  
+ 

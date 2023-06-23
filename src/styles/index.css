@@ -1,0 +1,31 @@
+
+
+.videoIntro{
+   
+  width: 100vw;
+  height: 100vh;
+  opacity: 0.9;
+}
+
+.container-div{
+  display: flex;
+  justify-content: center;
+}
+
+.Entrar{
+    text-align: center;
+    border: 2px solid blue;
+    background: lightblue;
+    border-radius: 15px;
+    color: white;
+    font-size: 16px;
+    font-weight: 600;
+    padding: 5px;
+    list-style: none;
+}
+
+a{
+  text-decoration: none;
+
+  
+}
