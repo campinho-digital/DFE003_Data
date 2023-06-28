@@ -1,7 +1,11 @@
+# [ link do projeto funcionando](https://lucianachamma.github.io/DFE003_Data_Squad5//src/index.html)
+
+
 # Desafio Data
 
 ## Índice
 
+- [ link do projeto funcionando](#-link-do-projeto-funcionando)
 - [Desafio Data](#desafio-data)
   - [Índice](#índice)
   - [Resumo do projeto](#resumo-do-projeto)
