@@ -5,11 +5,64 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Data</title>
+    <title>Desafio HTML e JSON</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 
 <body>
     <script src="./main.js"></script>
-</body>
 
-</html>
+    <div class="container" id="movies-container">
+        <!-- //Apenas para teste, para ver se funciona fazendo  manualmente. 
+            <div class="card">
+             <img src="./data/movies/img_movies/01 Avatar.png" alt="Avatar">
+            <h3>Avatar</h3> 
+        </div> -->
+    </div>
+    
+    <!-- check point -->
+    <script>
+        function carregarJSON() {
+            fetch('./data/movies/movies.json')
+                .then(response => response.json())
+                .then(movies => {
+                    const container = document.querySelector("#movies-container") //document.getElementById poderia ser utilizado também, mas utilizei este método acima por ser mais prático de trabalhar
+                    
+                    movies.map(movie => {
+                        const card = document.createElement("div")
+                        card.classList.add("card")
+//note que dentro do elemento map, que inspeciona cada objeto da array, eu coloquei movie no singular mesmo, pois a cada inspeção na array, irá me retornar um único valor como sendo um objeto.
+                        const img = document.createElement("img");
+                        img.src = movie.Poster
+                        img.alt = movie.Title
+
+                        const titulo = document.createElement("h3")
+                        titulo.textContent = movie.Title 
+
+                        const duracao = document.createElement("p")
+                        duracao.textContent = "Runtime: "+(movie.Runtime)
+
+                        const ano = document.createElement("p")
+                        ano.textContent = "Year: "+movie.Year
+
+                        const genero = document.createElement("p")
+                        genero.textContent = "Genre: "+(movie.Genre)
+
+                        const sinopse = document.createElement("p")
+                        sinopse.textContent = "Plot: "+movie.Plot
+
+                        card.appendChild(img)
+                        card.appendChild(titulo)
+                        card.appendChild(duracao)
+                        card.appendChild(ano)
+                        card.appendChild(genero)
+                        card.appendChild(sinopse)
+                        container.appendChild(card)
+                    }) 
+                })
+        }
+
+        carregarJSON();
+
+    </script>
+    
