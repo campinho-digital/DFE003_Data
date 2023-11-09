@@ -1,0 +1,154 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #fff;
+    background-color: #333;
+}
+:root {
+--primary-color: red;
+--secondary-color: #8d1e1e;
+}
+
+/*Logos*/
+
+.logos h2 {
+    position: relative;
+    left: 75%;
+    bottom: 35px;
+}
+
+.logos #Narutologo {
+    width: 200px;
+    height: 200px;
+    position: relative;
+    left: 5%;
+    bottom: 180px;
+}
+
+
+/* Redes Sociais */
+
+.redes #linkd {
+    width: 40px;
+    height: 40px;
+    position: relative;
+    left: 75%;
+    bottom: 250px;   
+}
+
+.redes #gitimg {
+    width: 40px;
+    height: 40px;
+    position: relative;
+    left: 75%; 
+    bottom: 250px;  
+}
+
+.redes #instaimg {
+    width: 75px;
+    height: 40px;
+    position: relative;
+    left: 75%; 
+    bottom: 250px;
+}
+
+/* Titulos e escrituras*/
+
+.titulo {
+    background-color: #8f8b8b77;
+    text-align: center;
+    font-size: 40px;
+    
+}
+
+div p {
+    font-size: 25px;
+}
+
+div nav{
+    background-color: chocolate;
+    font-style: oblique;
+     width: 100%;
+     height: 100%;
+     font-size: 20px;
+
+}
+
+.sitec {
+    position: relative;
+    bottom: 200px;
+    border: #fff;
+    border-bottom: 2px;
+}
+
+/* Anime JSON */
+
+.ani #persimg {
+         
+    border: 1px solid var(--primary-color);
+    width: 250px;
+    height: 250px;
+    position:relative;
+}
+
+.nomep {
+    position: relative;
+    left: 260px;
+    bottom: 250px;
+    background-color: var(--secondary-color);
+    width: 170px;
+    font-size: 30px;
+    font-style: italic;
+}
+
+.descp {
+    position: relative;
+    left: 270px;
+    bottom: 200px;
+    background-color: #ac870c;
+    max-width: 400px;
+}
+
+/*Fim do site*/
+
+.Fim p a {
+   color: #fff;
+}
+
+/* Rodapé */
+
+footer {
+    background-color: var(--secondary-color);
+    height: 150px;
+    text-align: center;
+    padding-top: 20px;
+    bottom: 10px;
+}
+
+footer p {
+    font-size: large;
+    font-style: oblique;
+}
+
+footer #descr {
+    font-size: 25px;
+    position: relative;
+    right: 300px;
+    bottom: 100px;
+}
+
+.fredes #linkd {
+    width: 40px;
+    height: 40px;
+}
+
+.fredes #gitimg{
+    width: 40px;
+    height: 40px;
+}
+
+.fredes #instaimg{
+    width: 75px;
+    height: 40px;
+}
+
+
