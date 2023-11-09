@@ -2,51 +2,64 @@
     {
         "anime": "Naruto",
         "character": "Pain",
-        "quote": "Because of the existence of love - sacrifice is born. As well as hate. Then one comprehends... one knows PAIN."
-    },
-    {
+        "foto": "https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/48bfbc66-59e8-4ff7-99e4-b8d4166f755e/dbmhesd-7447ef50-b014-49f4-987b-cdb531572ea0.jpg/v1/fill/w_1024,h_998,q_75,strp/pain__nagato__by_murdered117_dbmhesd-fullview.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9OTk4IiwicGF0aCI6IlwvZlwvNDhiZmJjNjYtNTllOC00ZmY3LTk5ZTQtYjhkNDE2NmY3NTVlXC9kYm1oZXNkLTc0NDdlZjUwLWIwMTQtNDlmNC05ODdiLWNkYjUzMTU3MmVhMC5qcGciLCJ3aWR0aCI6Ijw9MTAyNCJ9XV0sImF1ZCI6WyJ1cm46c2VydmljZTppbWFnZS5vcGVyYXRpb25zIl19.oHz5pqrr9kPG9Fy9gmn3EhiqXt_ScydG853Ql4NUHZk",
+        "quote": "Por causa da existência do amor - o sacrifício nasce. Assim como o ódio. Aí a gente compreende... conhece-se a DOR."
+    }
+
+
+    ,{
         "anime": "Naruto Shippuuden",
         "character": "Sasuke Uchiha",
-        "quote": "No man chooses evil because it is evil; he only mistakes it for happiness, the good he seeks"
+        "foto": "https://th.bing.com/th/id/R.ab4bc2de8e062e9354354da6b15ba3f6?rik=QjmLido6FjBBnw&riu=http%3a%2f%2fimages5.fanpop.com%2fimage%2fphotos%2f25800000%2fSASUKE-uchiha-sasuke-25858006-1280-960.jpg&ehk=BKc%2bl7wycxHW3K%2fkLi8sXIFYvM6fLv9wGZl6ID7F1VI%3d&risl=&pid=ImgRaw&r=0",
+        "quote": "Ninguém escolhe o mal porque ele é mau; só a confunde com a felicidade, o bem que busca"
     },
     {
         "anime": "Naruto",
         "character": "Yashamaru",
-        "quote": "Physical wounds will definitely bleed and may look painful \nbut over time they heal by themselves and if you apply medicine, \nthey will heal faster. What's troublesome are wounds of the heart. Nothing is harder to heal. They're a bit different from physical injuries. You can't apply medicine for one thing and sometimes, they never heal. There's only one cure for a wound of the heart. \nIt's a bit bothersome and you can only receive it from someone else. What is it? Love."
+        "foto": "https://i.pinimg.com/originals/5c/d6/51/5cd651b31c3f08bffb48368176f96bdf.png",
+        "quote": "As feridas físicas definitivamente sangrarão e podem parecer dolorosas nmas com o tempo elas cicatrizam sozinhas e se você aplicar medicamentos, nelas cicatrizarão mais rápido. O que incomoda são as feridas do coração. Nada é mais difícil de curar. São um pouco diferentes das lesões físicas. Você não pode aplicar remédio para uma coisa e, às vezes, eles nunca curam. Só há uma cura para uma ferida no coração. nÉ um pouco incômodo e você só pode recebê-lo de outra pessoa. O que é? Amor."
     },
     {
-        "anime": "Naruto Shippuuden",
+        "anime4": "Naruto Shippuuden",
         "character": "Sasuke Uchiha",
-        "quote": "Having too many bonds causes one to lose focus, weakening their strongest wish, their greatest desire."
+        "foto": "https://th.bing.com/th/id/R.fdfb74e25eba1adeb986dbc1ded9da92?rik=b8YkNKHoxFK%2bmA&riu=http%3a%2f%2fimages6.fanpop.com%2fimage%2fphotos%2f34300000%2fSasuke-uchiha-sasuke-34355459-1856-1050.png&ehk=frUPsBJwwn6lxZ%2faITDiw9%2bDwRpOsww2fQ3dXAIuPoY%3d&risl=&pid=ImgRaw&r=0",
+        "quote": "Ter muitos vínculos faz com que a pessoa perca o foco, enfraquecendo seu desejo mais forte, seu maior desejo."
     },
     {
         "anime": "Naruto Shippuuden",
         "character": "Obito Uchiha",
-        "quote": "The moment people come to know love, they run the risk of carrying hate."
+        "foto": "https://th.bing.com/th/id/OIP.kIyyQh1MCtI6InsrWxCaOwHaEK?pid=ImgDet&rs=1",
+        "quote": "No momento em que as pessoas conhecem o amor, correm o risco de carregar o ódio."
     },
     {
         "anime": "Naruto",
         "character": "Shino Aburame",
-        "quote": "Trying to improve by learning from others that is what calls friendship."
-    },
-    {
+        "foto": "https://th.bing.com/th/id/R.722db20368bad2e1df269dc1b142dff2?rik=MtMydu4RwW8VJQ&pid=ImgRaw&r=0",
+        "quote": "Tentar melhorar aprendendo com os outros é o que chama de amizade."
+    }
+
+    ,{
         "anime": "Naruto",
         "character": "Itachi Uchiha",
-        "quote": "Those who forgive themselves, and are able to accept their true nature... They are the strong ones!"
+        "foto": "https://th.bing.com/th/id/OIP.KUMkWr-hMPgEvy25jl3C2gHaHa?pid=ImgDet&rs=1",
+        "quote": "Aqueles que se perdoam e são capazes de aceitar sua verdadeira natureza... Eles são os fortes!"
     },
     {
         "anime": "Naruto Shippūden",
         "character": "Madara Uchiha",
-        "quote": "Love is not necessary, power is the only true necessity."
+        "foto": "https://th.bing.com/th/id/R.6732ac44cecbba6c8da62977cf3ad0b2?rik=82d449XCKiwMNg&pid=ImgRaw&r=0",
+        "quote": "O amor não é necessário, o poder é a única necessidade verdadeira."
     },
     {
         "anime": "Naruto Shippūden",
         "character": "Itachi Uchiha",
-        "quote": "I actually don't think something like perfection exists. That is I think why we are born able to absorb things... and by comparing ourselves with something else we can finally head in a good direction."
+        "foto": "https://th.bing.com/th/id/R.e977ec8256a7b1f68c8671327434dba9?rik=6JuQ%2foHabHu7UA&riu=http%3a%2f%2fimages4.fanpop.com%2fimage%2fphotos%2f19100000%2fItachi-Uchiha-itachi-uchiha-19186047-1280-720.jpg&ehk=JJW5d4amKpSDR3RMsHka5dL%2ffE%2bDB0CSmNGj7MUxdhY%3d&risl=&pid=ImgRaw&r=0",
+        "quote": "Na verdade, não acho que algo como perfeição exista. É por isso que nascemos capazes de absorver as coisas... e comparando-nos com outra coisa, podemos finalmente ir em uma boa direção."
     },
     {
         "anime": "Naruto Shippuuden",
         "character": "Madara Uchiha",
-        "quote": "People cannot show each other their true feelings. Fear, suspicion, and resentment never subside."
+        "foto": "https://th.bing.com/th/id/R.f0a519e79d1d6b6708b9384b58e453be?rik=25Pzwuk77hTEoQ&riu=http%3a%2f%2ffc03.deviantart.net%2ffs70%2ff%2f2012%2f068%2f2%2ff%2fuchiha_madara_by_bloodreal-d4s7d7f.jpg&ehk=V2sNMJm6qaLW99LwSJ3SY1prUTmcTsI3zbl2iBDIa30%3d&risl=&pid=ImgRaw&r=0",
+        "quote": "As pessoas não podem mostrar umas às outras seus verdadeiros sentimentos. O medo, a suspeita e o ressentimento nunca diminuem."
     }
 ]
